@@ -2,7 +2,7 @@
 
 include 'connection.php';
 
-$nome = 'Alice';
+$nome = 'Alexandre';
 $sobrenome = 'Rodrigues';
 
 $stmt = $conn->prepare('INSERT INTO tbl_usuario (nome, sobrenome) VALUES(:nome, :sobrenome)');
