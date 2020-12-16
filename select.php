@@ -10,5 +10,3 @@ while($row = $stmt->fetch()){
     echo $row['nome']." ".$row['sobrenome']."<br>";
 
 }
-
-?>
