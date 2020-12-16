@@ -19,5 +19,3 @@ if($_GET){
 }else{
     echo 'Campo de busca vazio';
 }
-
-?>
