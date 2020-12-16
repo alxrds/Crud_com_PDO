@@ -18,5 +18,3 @@ if ($result){
 }else{
     echo $stmt->errorInfo();
 }
-
-?>
